@@ -1,0 +1,14 @@
+.div1{
+    height: 100px;
+    width: 20%;
+    color: blue;
+    border: 1px solid black;
+}
+.div2{
+    height: 300px;
+    width:40%;
+    color: rgb(255, 123, 0);
+    border: 3px solid black;
+    float: right;
+   margin-right: 209px;
+}

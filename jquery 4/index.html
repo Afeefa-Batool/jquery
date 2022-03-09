@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script>
+// $(document).ready(function(){
+ 
+//   $("#bt1").click(function(){
+//     $("#a1").hide();
+//   });
+//   $("#bt1").click(function(){
+//     $("#a2").show();
+//      });
+//   $("#bt2").click(function(){
+//     $("#a2").hide();
+//   });
+//   $("#bt2").click(function(){
+//     $("#a1").show();
+//   });
+// });
+//   ......................
+  $(document).ready(function(){
+
+  $("#bt1").click(function(){
+    $("#a1").hide();
+    $("#a2").show();
+  });
+  $("#bt2").click(function(){
+    $("#a2").hide();
+    $("#a1").show();
+  });
+});
+</script>
+</head>
+<body>
+   
+    <div class="div1" id="a1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, consequatur?</div>
+    <div class="div2" id="a2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, consequatur?<br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, consequatur?
+    </div>
+
+
+<!-- <p id="a1">If you click on the "Hide" button, I will disappear.</p>
+<p id="a2">If you click on the "show" button, I will disappear.</p> -->
+
+<button id="bt1">1</button>
+<button id="bt2">2</button>
+
+</body>
+</html>
